@@ -1,4 +1,4 @@
-module fsm_test(
+module statemachine(
         input                clock,
         input                reset,
         input      [2 : 0]   req_0,

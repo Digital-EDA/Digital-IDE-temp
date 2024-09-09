@@ -1,4 +1,4 @@
-module formater_vlog #(  
+module formatter_vlog #(  
     parameter INPUT_WIDTH = 12,  
     parameter OUTPUT_WIDTH = 12  
 ) (  
