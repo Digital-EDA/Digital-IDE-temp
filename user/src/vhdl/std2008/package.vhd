@@ -45,8 +45,8 @@ package body TriState is
 	end;
 
 	-- p. 34
-	procedure P (X,Y: INTEGER) is begin end;
-	procedure P (X: INTEGER; Y: INTEGER) is begin end;
+	-- procedure P (X,Y: INTEGER) is begin end;
+	-- procedure P (X: INTEGER; Y: INTEGER) is begin end;
 	procedure P (X,Y: in INTEGER) is begin end;
 
 end package body TriState;

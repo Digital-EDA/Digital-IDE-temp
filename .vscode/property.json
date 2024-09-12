@@ -1,20 +1,10 @@
 {
-	"toolChain": "xilinx",
-	"prjName": {
-		"PL": "template"
-	},
-	"soc": {
-		"core": "none"
-	},
-	"enableShowLog": false,
-	"device": "none",
-	"library": {
-		"state": "remote",
-		"hardware": {
-			"common": [
-				"Math/Cordic.v"
-			],
-			"custom": []
-		}
-	}
+    "TOOL_CHAIN": "xilinx",
+    "Device": "xc7a35tcsg324-1",
+    "PRJ_NAME": {
+        "FPGA": "template"
+    },
+    "SOC_MODE": {
+        "soc": "none"
+    }
 }
